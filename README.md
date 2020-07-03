@@ -22,7 +22,10 @@ The Economic Freedom Index tracks the advancements in global prosperity and shar
 * Comparisons between various “freedoms” - Lisa
 
 
-# Data | https://www.kaggle.com/lewisduncan93/the-economic-freedom-index/data#
+# Data | 
+
+https://www.kaggle.com/lewisduncan93/the-economic-freedom-index/data#
+The data (last updated 26/02/2019) is presented in CSV format as follows: CountryID, Country Name, WEBNAME, Region, World Rank, Region Rank, 2019 Score, Property Rights, Judical Effectiveness, Government Integrity, Tax Burden, Gov't Spending, Fiscal Health, Business Freedom, Labor Freedom, Monetary Freedom, Trade Freedom, Investment Freedom, Financial Freedom, Tariff Rate (%), Income Tax Rate (%), Corporate Tax Rate (%), Tax Burden % of GDP, Gov't Expenditure % of GDP , Country, Population (Millions), "GDP (Billions, PPP)", GDP Growth Rate (%), 5 Year GDP Growth Rate (%), GDP per Capita (PPP), Unemployment (%), Inflation (%), FDI Inflow (Millions), Public Debt (% of GDP).
 
 # Technologies |
 
@@ -43,7 +46,6 @@ The Economic Freedom Index tracks the advancements in global prosperity and shar
 * Data Queries - SQL - “ETL”
 * Website for display - HTMl/CSS
 * Create Visualizations
-
 
 # Visualizations | 
 
