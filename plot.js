@@ -13,12 +13,12 @@ var taxburden = [];
 //     }
 // });
 
-d3.csv("tax.csv").then(data => {
+d3.csv("taxregion.csv").then(data => {
     console.log(data);
     country = data.map(d => d['Country Name']);
-    incometaxrate = data.map(d => d['Income Tax Rate (%)']);
-    corptaxrate=data.map(d => d['Corporate Tax Rate (%)']);
-    taxburden= data.map(d=> d['Tax Burden % of GDP']);
+    incometaxrate = data.map(d => d['avg_result']);
+    corptaxrate=data.map(d => d['avg_corptax']);
+    taxburden= data.map(d=> d['avg_taxburden']);
     region=data.map(d => d['Region']);
 
     console.log(country);
