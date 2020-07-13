@@ -4,9 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Economic Freedom | D3 Interactive Chart</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
             integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
             crossorigin="anonymous">
+
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/d3Style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js"></script>
@@ -27,17 +31,33 @@
     <div class="row" id="page-title">
       <div class="col-3 col-sm-6 col-md-12">
       <h2>Economic Freedom Dashboard</h2>
+
         <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Select A Region
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Americas</a>
+            <a class="dropdown-item" href="#">Asia-Pacific</a>
+            <a class="dropdown-item" href="#">Europe</a>
+            <a class="dropdown-item" href="#">Middle East and North Africa</a>
+            <a class="dropdown-item" href="#">Sub-Saharn Africa</a>
+          </div>
+        </div>
+
+        <!-- <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Select a Region
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        </button>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
             <a class="Americas" href="#">Americas</a>
             <a class="Asia-Pacific" href="#">Asia-Pacific</a>
             <a class="Europe" href="#">Europe</a>
             <a class="Middle East and North Africa" href="#">Middle East and North Africa</a>
             <a class="Sub-Saharan Africa" href="#">Sub-Saharan Africa</a>
           </div>
-        </button>
+ -->
+
         </div>
       </div>
     </div>
@@ -78,5 +98,8 @@
     </div>
   </div>
   <!-- <script src="js/bootstrap.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
