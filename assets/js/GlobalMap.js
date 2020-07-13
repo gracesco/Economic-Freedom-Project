@@ -9,25 +9,8 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: "pk.eyJ1IjoibWpjaGVya2Fzc2t5IiwiYSI6ImNrY2R3a3k1bzAwN2Myem13OGtqbmNrNDcifQ.hStuMDzlxeU__t8RATbjkQ"
 }).addTo(mymap);
 
-// L.geoJSON(countries).addTo(mymap)
+
 // console.log(countries)
-
-console.log(countries)
-
-// var geojson;
-// var practice = "Median_Household_Income_2016.geojson";
-
-
-
-// d3.json(geoData, function(data) {
-//     console.log(data)
-// })
-
-
-// d3.json("./countries2.json", function (data) {
-//     console.log(data)
-//     console.log(data.new_features[1].properties.rank)
-// })
 
 function getColor(data) {
     color= data < 10  ? '#1ef63f' :
