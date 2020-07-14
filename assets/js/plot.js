@@ -3,33 +3,13 @@ var incometaxrate = [];
 var corptaxrate = [];
 var taxburden = [];
 
-// Plotly.d3.csv("tax.csv", function(kara) {
-//     for (var i = 0; i < kara.length; i++) {
-//         row = kara[i];
-//         country.push(row['Country Name']);
-//         incometaxrate.push(parseFloat(row['Income Tax Rate (%)']));
-//         corptaxrate.push(parseFloat(row['Corporate Tax Rate (%)']));
-//         taxburden.push(parseFloat(row['Tax Burden % of GDP']));
-//     }
-// });
-
-d3.csv("./Outputs/taxregion.csv").then(data => {
-    // console.log(data);
+d3.csv("taxregion.csv").then(data => {
+    console.log(data);
     country = data.map(d => d['Country Name']);
     incometaxrate = data.map(d => d['avg_result']);
     corptaxrate=data.map(d => d['avg_corptax']);
     taxburden= data.map(d=> d['avg_taxburden']);
     region=data.map(d => d['Region']);
-
-    // console.log(country);
-    // console.log(incometaxrate);
-    // console.log(corptaxrate);
-    // console.log(taxburden);
-    // console.log(region);
-
-    // var incometaxavg= incometaxrate/;
-    // var corptaxavg= corptaxrate/region;
-    // var taxburdenavg= taxburden/region;
 
     var trace1 = {
         x: region,
