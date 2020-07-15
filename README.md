@@ -4,14 +4,13 @@ Authors | Grace, Kara, Lisa, Michael
 
 ## Table of Contents
 * [Objective](#Objective)
+* [Data](#Data)
 * [Technologies](#Technologies)
 * [Process](#Process)
 * [Deployment](#Deployment)
 * [Visualization](#Visualization)
-* [About the Data](#Data)
-* [Troubleshooting](#Troubleshooting)
 
-<img src="https://northafricapost.com/wp-content/uploads/2019/01/2019-Index-of-Economic-Freedom-294x420.png" width=350px align=right>
+<img src="https://northafricapost.com/wp-content/uploads/2019/01/2019-Index-of-Economic-Freedom-294x420.png" width=300px align=right>
 
 # Objective | 
 
