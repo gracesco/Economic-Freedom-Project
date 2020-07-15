@@ -47,11 +47,11 @@ The data (last updated 26/02/2019) is presented in CSV format as follows: Countr
 
 # Visualizations | 
 
-<img src="Outputs/map.png" width=350px align=left>
+<img src="Outputs/map.png" width=49% align=left>
 
-<img src="Outputs/hbar.png" width=350px align=right>
+<img src="Outputs/hbar.png" width=49% align=right>
 
-<img src="Outputs/taxbar.png" width=350px align=left>
+<img src="Outputs/taxbar.png" width=49% align=left>
 
-<img src="Outputs/sunburst.png" width=350px align=right>
+<img src="Outputs/sunburst.png" width=49% align=right>
 
