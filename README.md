@@ -1,17 +1,14 @@
 # Economic-Freedom-Project
 
 Authors | Grace, Kara, Lisa, Michael
-
+<img src="https://northafricapost.com/wp-content/uploads/2019/01/2019-Index-of-Economic-Freedom-294x420.png" width=300px align=right>
 ## Table of Contents
 * [Objective](#Objective)
+* [Data](#Data)
 * [Technologies](#Technologies)
 * [Process](#Process)
 * [Deployment](#Deployment)
 * [Visualization](#Visualization)
-* [About the Data](#Data)
-* [Troubleshooting](#Troubleshooting)
-
-<img src="Images/2019-Index-of-Economic-Freedom-294x420" width=350px align=right>
 
 # Objective | 
 
@@ -50,16 +47,11 @@ The data (last updated 26/02/2019) is presented in CSV format as follows: Countr
 
 # Visualizations | 
 
-Michael
-https://www.heritage.org/index/heatmap?version=17
+<img src="Outputs/map.png" width=49% align=left>
 
-Grace
-https://medium.com/plotly/nlp-visualisations-for-clear-immediate-insights-into-text-data-and-outputs-9ebfab168d5b
+<img src="Outputs/hbar.png" width=49% align=right>
 
-Kara
-Stacked Barchart
+<img src="Outputs/taxbar.png" width=49% align=left>
 
-Lisa
-Stacked Pie Graph
-
+<img src="Outputs/sunburst.png" width=49% align=right>
 
