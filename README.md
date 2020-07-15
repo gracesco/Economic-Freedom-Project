@@ -1,7 +1,7 @@
 # Economic-Freedom-Project
 
 Authors | Grace, Kara, Lisa, Michael
-
+<img src="https://northafricapost.com/wp-content/uploads/2019/01/2019-Index-of-Economic-Freedom-294x420.png" width=300px align=right>
 ## Table of Contents
 * [Objective](#Objective)
 * [Data](#Data)
@@ -9,8 +9,6 @@ Authors | Grace, Kara, Lisa, Michael
 * [Process](#Process)
 * [Deployment](#Deployment)
 * [Visualization](#Visualization)
-
-<img src="https://northafricapost.com/wp-content/uploads/2019/01/2019-Index-of-Economic-Freedom-294x420.png" width=300px align=right>
 
 # Objective | 
 
