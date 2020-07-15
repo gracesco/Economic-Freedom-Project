@@ -11,7 +11,7 @@ Authors | Grace, Kara, Lisa, Michael
 * [About the Data](#Data)
 * [Troubleshooting](#Troubleshooting)
 
-<img src="Images/2019-Index-of-Economic-Freedom-294x420" width=350px align=right>
+<img src="https://northafricapost.com/wp-content/uploads/2019/01/2019-Index-of-Economic-Freedom-294x420.png" width=350px align=right>
 
 # Objective | 
 
@@ -50,16 +50,11 @@ The data (last updated 26/02/2019) is presented in CSV format as follows: Countr
 
 # Visualizations | 
 
-Michael
-https://www.heritage.org/index/heatmap?version=17
+<img src="Outputs/map.png" width=350px align=left>
 
-Grace
-https://medium.com/plotly/nlp-visualisations-for-clear-immediate-insights-into-text-data-and-outputs-9ebfab168d5b
+<img src="Outputs/hbar.png" width=350px align=right>
 
-Kara
-Stacked Barchart
+<img src="Outputs/taxbar.png" width=350px align=left>
 
-Lisa
-Stacked Pie Graph
-
+<img src="Outputs/sunburst.png" width=350px align=right>
 
