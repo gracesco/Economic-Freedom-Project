@@ -1,6 +1,6 @@
 // Create chart by defining margins for master select #unemployment 
 var svg = d3.select("#unemployment"),    
-    margin = {top: 20, right: 20, bottom: 30, left: 40},
+    margin = {top: 20, right: 20, bottom: 30, left: 150},
     width = +svg.attr("width") - margin.left - margin.right,
     height = +svg.attr("height") - margin.top - margin.bottom,
     g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
